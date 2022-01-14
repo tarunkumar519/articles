@@ -9,7 +9,7 @@
 
 ## UAC bypass
 
-UAC means 'User Account Control'. Yes, even if your computer has tight securities like when you try to install an app, the UAC dialogue box appears asking  a simple'Yes' or 'No'. We're going to bypass and go further.
+UAC means 'User Account Control'. Yes, even if your computer has tight securities like when you try to install an app, the UAC dialogue box appears asking  a simple 'Yes' or 'No'. We're going to bypass and go further.
 
 ![UAC prompt screen](https://cdn.discordapp.com/attachments/914907771063894059/925379076624113734/IMG_0014.jpg)
 
