@@ -5,7 +5,7 @@
 ![Mr Robot hodling Digispark](https://cdn.discordapp.com/attachments/914907771063894059/926024143202295828/IMG_0022.png)
 
 
-**S**o, I made a rubber ducky with a small arduino board (called digispark-[[link here]](https://www.amazon.in/dp/B07B8SS1VQ/ref=cm_sw_r_cp_api_glt_fabc_MHJ6HENHA71NN6VZK0DE)).The original rubber duckies are pretty costly (for me anyway) [[link here]](https://shop.hak5.org/products/usb-rubber-ducky-deluxe). Sure they're fast and have more memory than digisparks, but making one our own will give us complete control of the board.We can configure the boot load times, make signals with on-board led etc.
+**S**o, I made a rubber ducky with a small arduino board called [digispark](https://www.amazon.in/dp/B07B8SS1VQ/ref=cm_sw_r_cp_api_glt_fabc_MHJ6HENHA71NN6VZK0DE). The original rubber duckies are pretty costly (for me anyway) [[link here]](https://shop.hak5.org/products/usb-rubber-ducky-deluxe). Sure they're fast and have more memory than digisparks, but making one our own will give us complete control of the board.We can configure the boot load times, make signals with on-board led etc.
 
 ## UAC bypass
 
