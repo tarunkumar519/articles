@@ -5,7 +5,7 @@
 ![Mr Robot hodling Digispark](https://cdn.discordapp.com/attachments/914907771063894059/926024143202295828/IMG_0022.png)
 
 
-**S**o, I made a rubber ducky with a small arduino board called [digispark](https://www.amazon.in/dp/B07B8SS1VQ/ref=cm_sw_r_cp_api_glt_fabc_MHJ6HENHA71NN6VZK0DE). The original rubber duckies are pretty costly (for me anyway) [[link here]](https://shop.hak5.org/products/usb-rubber-ducky-deluxe). Sure they're fast and have more memory than digisparks, but making one our own will give us complete control of the board.We can configure the boot load times, make signals with on-board led etc.
+**S**o, I made a rubber ducky with a small arduino board called [digispark](https://www.amazon.in/dp/B07B8SS1VQ/ref=cm_sw_r_cp_api_glt_fabc_MHJ6HENHA71NN6VZK0DE). The original rubber duckies are pretty costly (for me anyway) [link here](https://shop.hak5.org/products/usb-rubber-ducky-deluxe). Sure they're fast and have more memory than digisparks, but making one our own will give us complete control of the board.We can configure the boot load times, make signals with on-board led etc.
 
 ## UAC bypass
 
@@ -16,13 +16,13 @@ UAC means 'User Account Control'. Yes, even if your computer has tight securitie
 We'll also evade all major anti-virus applications using clever tricks.
 
 ## So how do we do this
-Well, first of all you need to download netcat 1.12 [[link here]](https://eternallybored.org/misc/netcat/netcat-win32-1.12.zip) and extract the **nc64.exe.** Once you got it extracted upload it to some file-hosting service of your choice, which provides **DIRECT LINK** (very important!!). I used **Discord**, it works like a charm and link doesn't expire. Just upload the file to discord, right click on it and select copy media link.
+Well, first of all you need to download netcat 1.12 [here](https://eternallybored.org/misc/netcat/netcat-win32-1.12.zip) and extract the **nc64.exe.** Once you got it extracted upload it to some file-hosting service of your choice, which provides **DIRECT LINK** (very important!!). I used **Discord**, it works like a charm and link doesn't expire. Just upload the file to discord, right click on it and select copy media link.
 
 &#x200B;
 
 Second, you need to make yourself an **.XML** file which you'll need later for Task Scheduler. I believe scheduled tasks are really good way to set up persistence. It means our hack will always run in background even when the system restarts or anything. Scheduled tasks are also good for escalating the file that it executes to **NT Authority\\SYSTEM** privileges, while remaining stealthy. 
 
-I already did the work for you.This is what it should look like.
+I already did the work for you. This is what it should look like.
 
 
     <?xml version="1.0" encoding="UTF-16"?>
@@ -95,7 +95,7 @@ Now, that the boring setup part is over, we get to the actual code that's being 
 
 ## Whats happening?
 
-We're creating a persistent reverse shell(more about reverse shell [[link here]](https://www.netsparker.com/blog/web-security/understanding-reverse-shells/)).
+We're creating a persistent reverse shell(more about reverse shell [here](https://www.netsparker.com/blog/web-security/understanding-reverse-shells/)).
 
 First, it downloads both of your files via powershell, then it clears our Windows + R history to clear any traces of itself (if you're using  USB RubberDucky). Then it uses the UAC bypass technique i shared at the end of this post to create scheduled task called **Windows Update Assistant**, which is set to be executed to run with **NT Authority\\SYSTEM** privileges(high level privileges or access) in our **.XML** file. Then it marks our **nc64.exe** file as hidden system file, which is also now called **svchost.exe** and then it deletes our **.XML** file, since system doesn't need it anymore after task is created.
 
@@ -166,7 +166,7 @@ You may be testing this on your own system. If you want to remove the reverse sh
 
 ## Rubber ducky code
 
-Digispark works with Arduino IDE, you can learn writing Arduino scripts on google.It's pretty simple and easy. You can learn how to setup Arduino IDE for digispark here [[Link]](https://maker.pro/arduino/projects/how-to-build-a-rubber-ducky-usb-with-arduino-using-a-digispark-module)
+Digispark works with Arduino IDE, you can learn writing Arduino scripts on google. It's pretty simple and easy. You can learn how to setup Arduino IDE for digispark [here](https://maker.pro/arduino/projects/how-to-build-a-rubber-ducky-usb-with-arduino-using-a-digispark-module)
 
     #include "DigiKeyboard.h"
 
