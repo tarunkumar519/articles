@@ -30,4 +30,4 @@ I will add more features, series and different type of posts to this blog regula
 
 My github contributions chart
 
-%[https://ghchart.rshah.org/6e18de/tarunkumar519]
+![github-contribution-chart](https://ghchart.rshah.org/6e18de/tarunkumar519)
