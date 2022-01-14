@@ -4,8 +4,7 @@ More about me here
 
 	```
 {
-  "firstName": "John",
+ [  "firstName": "John",
   "lastName": "Smith",
-  "age": 25
-}
-```
+  "age": 25} 
+	```
