@@ -1,6 +1,6 @@
 ## Why blogging?
 
-## Why blogging?
+## The basics
 
 Blogging is always a good thing, especially when you're a software developer.
 
