@@ -27,8 +27,3 @@ The question is simple but the answer isn't straight-forward. I may cover a vast
 This blog even might interest people who doesn't know code, who are willing to learn at some point.
 
 I will add more features, series and different type of posts to this blog regularly, but also keeping it simple, neat, fast and easy to read.
-
-
-My github contributions chart
-
-![github-contribution-chart](https://ghchart.rshah.org/tarunkumar519)
