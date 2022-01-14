@@ -28,6 +28,7 @@ This blog even might interest people who doesn't know code, who are willing to l
 
 I will add more features, series and different type of posts to this blog regularly, but also keeping it simple, neat, fast and easy to read.
 
-        My github contributions chart
+
+My github contributions chart
 
 ![github-contribution-chart](https://ghchart.rshah.org/tarunkumar519)
