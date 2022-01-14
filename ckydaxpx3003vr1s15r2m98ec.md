@@ -13,6 +13,8 @@ Some of my interests include reading books on my kindle, building new softwares,
 ## Contact
 [Email here](mailto:tarunreddy17519@gmail.com) or set up a meeting at a time of your choice with calendy [here]()
 
+%%[calendly]
+
 - - -
 
 ## Socials
